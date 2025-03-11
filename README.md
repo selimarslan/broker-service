@@ -80,7 +80,7 @@ curl --request POST \
 
 ```console
 # create order for logged in customer (ahmet),
-# add JSESSIONID in header returned from login request
+# add JSESSIONID in cookie returned from login request
 
 $ curl --request POST \
     --url http://localhost:8080/api/v1/orders \
